@@ -3,7 +3,7 @@
 		<a href="#" class="logo">Tours</a>
 
 		<nav class="navbar">
-			<a href="#">Home</a>
+			<a href="#" class="active">Home</a>
 			<a href="#">About</a>
 			<a href="#">Portfolio</a>
 			<a href="#">Services</a>
@@ -44,7 +44,8 @@
 			transition: 0.3s;
 		}
 
-		.navbar a:hover {
+		.navbar a:hover,
+		.navbar a.active {
 			color: #f00;
 		}
 	}
